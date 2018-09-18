@@ -3,6 +3,7 @@ let rawFieldName = _.replace(/(\.untouched)|(\.shingle)/g, '')
 let modeMap = {
   word: '',
   autocomplete: '.untouched',
+  field: '.untouched',
   suggest: '.shingle',
 }
 module.exports = {
